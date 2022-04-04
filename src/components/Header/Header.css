@@ -1,0 +1,25 @@
+.container {
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+.header {
+    width: 1140px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    width: 80%;
+}
+.header a{
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: goldenrod;
+    border-radius: 4px;
+    color: white;
+}
