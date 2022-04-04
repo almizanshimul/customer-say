@@ -17,7 +17,7 @@
     width: 80%;
 }
 
-.header a {
+.header .navbar a {
     margin-left: 20px;
     text-decoration: none;
     padding: 8px 25px;

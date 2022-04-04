@@ -1,0 +1,16 @@
+.footer{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    height: 120px;
+}
+.footer p{
+   padding-top: 50px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
