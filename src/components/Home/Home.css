@@ -1,10 +1,25 @@
-.hero-container{
-
-}
 .row {
-    width: 1140px;
+    width: 1080px;
     margin: 0 auto;
+    padding: 60px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.col{
+    width: 48%;
+}
+.hero-container img{
+    width: 98%;
+    padding: 2%;
+}
+.hero-container button{
+    font-size: 16px;
+    padding: 10px 32px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3B5C20;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
 }
