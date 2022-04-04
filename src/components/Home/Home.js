@@ -1,9 +1,15 @@
 import React from 'react';
+import './Home.css'
 
 const Home = () => {
     return (
-        <div>
-            
+        <div className='hero-container'>
+           <div className="row">
+               <div className="col">
+                   
+               </div>
+               <div className="col"></div>
+           </div>
         </div>
     );
 };

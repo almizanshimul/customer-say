@@ -1,7 +1,7 @@
 .container {
     background-color: white;
     padding: 10px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.116);
+    box-shadow: 0 10px 10px #00000012;
 }
 
 .header {
@@ -12,14 +12,16 @@
     justify-content: space-between;
     align-items: center;
 }
-.header img{
+
+.header img {
     width: 80%;
 }
-.header a{
+
+.header a {
     margin-left: 20px;
     text-decoration: none;
     padding: 8px 25px;
-    background-color: goldenrod;
+    background-color: #3B5C20;
     border-radius: 4px;
     color: white;
 }
