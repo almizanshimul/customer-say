@@ -1,0 +1,17 @@
+.dashboard-container h2{
+    text-align: center;
+}
+.dashboard-container .row {
+    width: 1180px;
+    margin: 20px auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboard-container .col{
+    width: 48%;
+    box-shadow: 0 0px 130px #00000012;
+    border-radius: 16px;
+    padding: 10px;
+}
