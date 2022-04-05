@@ -1,0 +1,15 @@
+.row {
+    width: 1080px;
+    margin: 20px auto;
+}
+
+.blog-question {
+    box-shadow: 0 0 20px #0000002a;
+    padding: 20px;
+    border-radius: 16px;
+    margin: 20px;
+}
+
+.blog-question h2 {
+    color: #3B5C20;
+}
