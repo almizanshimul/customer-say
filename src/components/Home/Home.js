@@ -16,7 +16,7 @@ const Home = () => {
                 <div className="row">
                     <div className="col">
                         <div>
-                            <h1>Tesla Model 3</h1>
+                            <h1>Tesla Car</h1>
                             <p>What you’re looking at is the reason why a lot of car manufacturers are now scrambling to bring out as many electric vehicles (EVs) as they can before government legislation brings the hammer down on fossil-fuel powered vehicles.</p>
                             <button>Click Here</button>
                         </div>
