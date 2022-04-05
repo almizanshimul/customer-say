@@ -61,3 +61,16 @@ Reviews Container
     cursor: pointer;
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 600px) {
+    .hero-container .row {
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .hero-container .col {
+        width: 100%;
+    }
+    
+  }

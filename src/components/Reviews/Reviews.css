@@ -22,3 +22,14 @@ Reviews Container
 .reviews-container h2 span{
     color: goldenrod;
 }
+
+@media screen and (max-width: 600px) {
+    .reviews-container .reviews-row {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+    }
+    .reviews-container h2{
+        margin-bottom: 80px;
+    }
+  }
