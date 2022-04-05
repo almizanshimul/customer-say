@@ -9,6 +9,7 @@
     border-radius: 16px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.235);
     position: relative;
+
 }
 
 .card .profile-img {
@@ -19,7 +20,24 @@
     position: absolute;
     top: -50px;
     left: auto;
+    transition: all 0.7s ease-in-out;
+
 }
-.user-details{
+
+.user-details {
     margin-top: 65px;
+}
+
+.user-details h3, .user-details p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.user-details .user-name {
+    color: #3B5C20;
+    font-size: 22px;
+}
+
+.card:hover .profile-img {
+    transform: translateX(110px);
 }

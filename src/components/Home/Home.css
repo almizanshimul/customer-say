@@ -9,14 +9,17 @@ Hero Container
     justify-content: space-between;
     align-items: center;
 }
-.hero-container .col{
+
+.hero-container .col {
     width: 48%;
 }
-.hero-container img{
+
+.hero-container img {
     width: 98%;
     padding: 2%;
 }
-.hero-container button{
+
+.hero-container button {
     font-size: 16px;
     padding: 10px 32px;
     border-radius: 6px;
@@ -30,7 +33,7 @@ Hero Container
 /* -----------------------
 Reviews Container 
 ----------------------- */
-
+/* 
 .reviews-container .row {
     width: 1080px;
     margin: 0 auto;
@@ -41,4 +44,20 @@ Reviews Container
 }
 .reviews-container .col{
     width: 32%;
+} */
+.see-all-reviews {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.see-all-reviews a {
+    font-size: 16px;
+    padding: 10px 52px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3B5C20;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-decoration: none;
 }

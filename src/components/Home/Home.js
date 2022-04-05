@@ -1,9 +1,15 @@
 import React from 'react';
 import './Home.css';
 import tesla from "../../images/tesla.png";
+import useReviews from '../../hooks/useReviews';
+import Review from '../Review/Review';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
+    const [reviews] = useReviews();
+    const cutReview = reviews.slice(0, 3);
+
     return (
         <div>
             <section className='hero-container'>
@@ -21,20 +27,17 @@ const Home = () => {
                 </div>
             </section>
             <section className='reviews-container'>
-                <h2>What Our Customer Say!</h2>
+                <h2>What Our <span>Customer Say!</span></h2>
                 <div className="reviews-row">
-                    <div className="reviews-col">
-                        <div className='card'>
-                            <img src="" alt="" />
-                            <div className='details'>
-                                <h3>customer name</h3>
-                                <p><strong>Published: </strong></p>
-                                <p>comment</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="reviews-col"></div>
-                    <div className="reviews-col"></div>
+                    {
+                        cutReview.map(review => <Review
+                            key={review.id}
+                            review={review}
+                        ></Review>)
+                    }
+                </div>
+                <div className="see-all-reviews">
+                <Link to='/reviews'>See all reviews</Link>
                 </div>
             </section>
         </div>
