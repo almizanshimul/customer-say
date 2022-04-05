@@ -1,0 +1,25 @@
+.review-col {
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.card {
+    height: 365px;
+    padding: 5%;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.235);
+    position: relative;
+}
+
+.card .profile-img {
+    width: 100px;
+    height: 100px;
+    border: 5px solid goldenrod;
+    border-radius: 100%;
+    position: absolute;
+    top: -50px;
+    left: auto;
+}
+.user-details{
+    margin-top: 65px;
+}

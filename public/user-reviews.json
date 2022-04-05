@@ -2,7 +2,7 @@
     {
         "id": "user01",
         "name": "Axelle Riviere",
-        "img": "./user/user01.jpg",
+        "img": "https://www.pixinvent.com/materialize-material-design-admin-template/laravel/demo-4/images/user/12.jpg",
         "reviews": "The range is always too optimistic for what it really last, besides that one of the best cars i ever had, drives awesome and the tech is to fell in love for, is comfortable, fast and have a very eye catching look, i got it on a AGL subscription btw, also pretty good.",
         "rate": 4.5,
         "published": "September 2021"
@@ -10,15 +10,15 @@
     {
         "id": "user02",
         "name": "Bobby Parker",
-        "img": "./user/user02.jpg",
+        "img": "http://satvision.in/wp-content/uploads/2019/06/user.jpg",
         "reviews": "I've had my Tesla about a month. Absolutely love it. I was worried about quality after reading some comments however the quality far exceeds the BMW I've traded up from.",
         "rate": 5,
         "published": "August 2021"
     },
     {
         "id": "user03",
-        "name": "Ferdinand Loland",
-        "img": "./user/user03.jpg",
+        "name": "Mike",
+        "img": "https://globalhydraulics.com.sg/wp-content/uploads/2021/03/mike.jpg",
         "reviews": "Extremely comfortable, quiet and responsive. Full featured and easy to drive. Large display is intuitive and rapid response. Great sound system and climate control. Too many good features to mention.",
         "rate": 4.9,
         "published": "September 2021"
@@ -26,15 +26,15 @@
     {
         "id": "user04",
         "name": "Alfredo Flores",
-        "img": "./user/user04.jpg",
+        "img": "https://www.surtecsuzuki.com.mx/facturas/img/user1.jpg",
         "reviews": "Purchased this new in December 2019 as a replacement for a fairmont v8, and is used in a mix of city and country driving. Build quality is fantastic although not quite as quiet as I expected on the open road. Only dislikes are the touchscreen radio is more difficult to change stations when compared to a traditional car radio.",
         "rate": 4,
         "published": "December 2019"
     },
     {
         "id": "user05",
-        "name": "Felecia Sullivan",
-        "img": "./user/user05.jpg",
+        "name": "Patricia Sullivan",
+        "img": "https://likewisestage.blob.core.windows.net/images/adbe7230-5587-43e5-96fe-3ce863f25e88/photo.jpg",
         "reviews": "Great car, drives fantastic and low running costs. Sound system so good, great fun to use on long or short journeys, highly recommended this car if thinking of buying a electric vehicle",
         "rate": 4.5,
         "published": "june 2021"
@@ -42,7 +42,7 @@
     {
         "id": "user06",
         "name": "Florence Macdonald",
-        "img": "./user/user06.jpg",
+        "img": "http://www.venmond.com/demo/vendroid/img/avatar/big.jpg",
         "reviews": "I’ve had this car for about 2 months now and I love driving it around. It’s zippy like a go kart and just and all round pleasure to drive. I love it.",
         "rate": 4.7,
         "published": "July 2021"

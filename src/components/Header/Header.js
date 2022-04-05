@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='container'>
-            <div className='header'>
+            <header className='header'>
                 <div className="logo">
                     <Link to='/'><img src="./logo.png" alt="" /></Link>
                 </div>
@@ -16,7 +16,7 @@ const Header = () => {
                     <Link to='/about'>About</Link>
                     <Link to='/contact'>Contact</Link>
                 </div>
-            </div>
+            </header>
         </div>
     );
 };

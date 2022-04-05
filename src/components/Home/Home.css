@@ -1,4 +1,7 @@
-.row {
+/* -----------------------
+Hero Container 
+----------------------- */
+.hero-container .row {
     width: 1080px;
     margin: 0 auto;
     padding: 60px 0;
@@ -6,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.col{
+.hero-container .col{
     width: 48%;
 }
 .hero-container img{
@@ -22,4 +25,20 @@
     color: white;
     text-transform: capitalize;
     cursor: pointer;
+}
+
+/* -----------------------
+Reviews Container 
+----------------------- */
+
+.reviews-container .row {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reviews-container .col{
+    width: 32%;
 }
